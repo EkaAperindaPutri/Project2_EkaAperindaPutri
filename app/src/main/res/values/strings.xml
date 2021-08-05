@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Project2_EkaAperindaPutri</string>
+    <string name="app_name">APLIKASI KALKULATOR</string>
+    <string name="masukan_dua_angka">Masukan Dua Angka</string>
+    <string name="masukan_angka_pertama">Masukan Angka Pertama</string>
+    <string name="masukan_angka_kedua">Masukan Angka Kedua</string>
+    <string name="kurang">-</string>
+    <string name="tambah">+</string>
+    <string name="kali">x</string>
+    <string name="bagi">/</string>
+    <string name="tampilkan">Tampilkan</string>
+    <string name="hasil">HASIL</string>
+    <string name="hasilnya">0</string>
 </resources>
