@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/judul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="170dp"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/angka_pertama"
         android:layout_width="373dp"
         android:layout_height="39dp"
         android:layout_marginStart="16dp"
@@ -33,10 +33,10 @@
         android:textColor="@color/grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/judul" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/angka_kedua"
         android:layout_width="372dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
@@ -49,10 +49,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/angka_pertama" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/kurang"
         android:layout_width="66dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
@@ -61,10 +61,10 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/angka_kedua" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/tambah"
         android:layout_width="66dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
@@ -72,11 +72,11 @@
         android:text="@string/tambah"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintStart_toEndOf="@+id/kurang"
+        app:layout_constraintTop_toBottomOf="@+id/angka_kedua" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/kali"
         android:layout_width="66dp"
         android:layout_height="50dp"
         android:layout_marginStart="80dp"
@@ -85,12 +85,12 @@
         android:text="@string/kali"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
-        app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintEnd_toStartOf="@+id/bagi"
+        app:layout_constraintStart_toEndOf="@+id/tambah"
+        app:layout_constraintTop_toBottomOf="@+id/angka_kedua" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/bagi"
         android:layout_width="66dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
@@ -98,21 +98,21 @@
         android:text="@string/bagi"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintStart_toEndOf="@+id/kali"
+        app:layout_constraintTop_toBottomOf="@+id/angka_kedua" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/bersihkan"
         android:layout_width="362dp"
         android:layout_height="42dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/tampilkan"
+        android:text="@string/bersihkan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.352"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/kurang" />
 
     <TextView
         android:id="@+id/textView2"
@@ -124,10 +124,10 @@
         android:textSize="16sp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/bersihkan" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/hasil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="175dp"

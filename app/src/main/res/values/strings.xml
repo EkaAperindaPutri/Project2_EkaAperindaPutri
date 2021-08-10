@@ -7,7 +7,7 @@
     <string name="tambah">+</string>
     <string name="kali">x</string>
     <string name="bagi">/</string>
-    <string name="tampilkan">Tampilkan</string>
+    <string name="bersihkan">Bersihkan</string>
     <string name="hasil">HASIL</string>
     <string name="hasilnya">0</string>
 </resources>
